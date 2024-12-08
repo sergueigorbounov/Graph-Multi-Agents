@@ -1,0 +1,10 @@
+{
+  "name": "shopping-cart-graph",
+  "tools": ["tavily.tool.ts"],
+  "agents": {
+    "tavilyAgent": "agents/tavily.agent.ts",
+    "cartAgent": "agents/cart.agent.ts",
+    "coordinatorAgent": "agents/supervisor.agent.ts"
+  }
+}
+

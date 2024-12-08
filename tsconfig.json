@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",                 // Use ESNext modules for ESM
+    "moduleResolution": "node",        // Resolve modules in a Node.js environment
+    "target": "ES2020",                // At least ES2020 for top-level await
+    "strict": true,                    // Enable all strict type-checking options
+    "esModuleInterop": true,           // Allow ES module interoperability
+    "experimentalDecorators": true,    // Enable support for decorators
+    "emitDecoratorMetadata": true,     // Emit metadata for decorators
+    "skipLibCheck": true,              // Skip type checking of declaration files
+    "outDir": "./dist",                // Output directory for compiled files
+    "allowSyntheticDefaultImports": true // Allow default imports from CommonJS modules
+  },
+  "include": ["src/**/*"],             // Include all source files in `src/`
+  "exclude": ["node_modules", "dist"]  // Exclude `node_modules` and `dist/`
+}
