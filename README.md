@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+## Live Demo
+
+Deployed version: [Graph Multi-Agent System]([https://your-vercel-link.vercel.app](https://graph-14g9lg1jk-sergueis-projects-5c54ca99.vercel.app))
+
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
