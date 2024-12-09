@@ -1,23 +1,12 @@
-# Ignore non-source files
+# Ignore non-core files from language stats
 dist/* linguist-vendored
 node_modules/* linguist-vendored
 public/* linguist-vendored
 *.json linguist-vendored
+*.js linguist-vendored
 *.css linguist-vendored
 *.html linguist-vendored
 
-# Focus on source files related to core technologies
+# Focus on TypeScript and NestJS source files
 src/**/* linguist-detectable
 *.ts linguist-detectable
-
-# Specific file types
-*.ts linguist-detectable
-*.js linguist-vendored # Deprioritize JavaScript (for NestJS)
-
-# Specific folders where NestJS, Langchain, and Langraph reside
-src/agents/**/* linguist-detectable
-src/tools/**/* linguist-detectable
-src/workflow/**/* linguist-detectable
-
-# Focus on TypeScript and NestJS source files
-**/* linguist-detectable
