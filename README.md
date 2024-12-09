@@ -1,6 +1,6 @@
 ## Live Demo
 
-Deployed version: [Graph Multi-Agent System]([https://your-vercel-link.vercel.app](https://graph-14g9lg1jk-sergueis-projects-5c54ca99.vercel.app))
+Deployed version: [Graph Multi-Agent System](https://graph-14g9lg1jk-sergueis-projects-5c54ca99.vercel.app)
 
 
 <p align="center">
