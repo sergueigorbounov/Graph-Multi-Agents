@@ -1,0 +1,12 @@
+# Ignore non-core files from language stats
+dist/* linguist-vendored
+node_modules/* linguist-vendored
+public/* linguist-vendored
+*.json linguist-vendored
+*.js linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored
+
+# Focus on TypeScript and NestJS source files
+src/**/* linguist-detectable
+*.ts linguist-detectable
