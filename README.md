@@ -2,6 +2,33 @@
 
 Deployed version: [Graph Multi-Agent System](https://graph-14g9lg1jk-sergueis-projects-5c54ca99.vercel.app)
 
+# Graph Multi-Agent System
+
+This repository implements a **multi-agent graph-based system** using the following technologies:
+
+- **NestJS**: The backbone of our application, providing modularity, scalability, and dependency injection.
+- **Langchain**: A framework for building powerful applications powered by LLMs.
+- **Langraph**: Enables workflow-based agent orchestration for complex multi-agent interactions.
+- **TypeScript**: For robust and maintainable code.
+
+## Key Features
+
+- **Multi-Agent Workflow**: Manage `CartManager`, `Supervisor`, and `Researcher` agents via Langraph's state-based workflow.
+- **Dynamic Tools**: Utilize Langchain tools like `TavilySearchResults` for enhanced functionality.
+- **NestJS Architecture**: Implements controllers, modules, and services for clean, maintainable code.
+
+## Highlighted Files and Folders
+
+- `src/agents/`: Contains agent implementations using Langchain and Langraph.
+- `src/tools/`: Defines dynamic tools for agents.
+- `src/workflow/`: Langraph workflows for agent interaction.
+- `src/state/`: Manages the shared state between agents.
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   npm install
 
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
